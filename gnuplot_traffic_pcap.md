@@ -47,7 +47,7 @@ plot 'stat.dat' with linespoints linestyle 1
 set out
 ```
 
-> Run Gnuplot7
+> Run Gnuplot
 
 ```bash
 gnuplot gnuplot.script
