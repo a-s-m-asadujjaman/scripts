@@ -52,3 +52,4 @@ set out
 ```bash
 gnuplot gnuplot.script
 ```
+![test.png](https://github.com/a-s-m-asadujjaman/scripts/blob/main/test.png)
