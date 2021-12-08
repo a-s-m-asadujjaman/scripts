@@ -20,6 +20,14 @@ timeout 10 tcpdump -r sample-point-F-202001011400.pcap -w sample.pcap
 tcpstat -o "%R\t%b\n" -r sample.pcap > stat.dat
 ```
 
+> Remove the last line from generated data file
+
+```
+sed -i '$ d' stat.dat
+```
+
+### Plot data
+
 > Create Gnuplot script
 
 ```bash
@@ -39,7 +47,7 @@ plot 'stat.dat' with linespoints linestyle 1
 set out
 ```
 
-### Plot data
+> Run Gnuplot7
 
 ```bash
 gnuplot gnuplot.script
