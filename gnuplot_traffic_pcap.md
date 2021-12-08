@@ -26,7 +26,7 @@ tcpstat -o "%R\t%b\n" -r sample.pcap > stat.dat
 sed -i '$ d' stat.dat
 ```
 
-### Plot data:
+### Plotting:
 
 > Create Gnuplot script
 
