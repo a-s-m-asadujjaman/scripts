@@ -8,7 +8,7 @@ Get the detailed information about the plotting from the below-mentioned website
 
 ### Data preparation:
 
-> Generate pcap for required duration from existing capture file
+> Generate pcap for required duration if the original capture file is too large (optional)
 
 ```bash
 timeout 10 tcpdump -r sample-point-F-202001011400.pcap -w sample.pcap
@@ -20,7 +20,7 @@ timeout 10 tcpdump -r sample-point-F-202001011400.pcap -w sample.pcap
 tcpstat -o "%R\t%b\n" -r sample.pcap > stat.dat
 ```
 
-> Remove the last line from generated data file
+> Remove the last line from generated data file (to avoid incomplete data point)
 
 ```
 sed -i '$ d' stat.dat
