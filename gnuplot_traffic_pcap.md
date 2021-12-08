@@ -1,6 +1,6 @@
 ﻿# Monitoring traffic using Gnuplot
 
-Get the detailed information about the plotting from the below-mentioned websites of **Gnuplot** and **Tcpstat**.
+Get the detailed information about the plotting from the below-mentioned websites for **Gnuplot** and **Tcpstat**.
 
 [Gnuplot](http://www.gnuplotting.org/plotting-data/)
 
