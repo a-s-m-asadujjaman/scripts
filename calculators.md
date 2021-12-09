@@ -1,8 +1,8 @@
-####Transmission Delay
+### Transmission Delay
 
 This [online calculator](https://www.vcalc.com/wiki/JustinLiller/Transmission+Delay) is very useful.
 
->Following code can be used to calculate transmission delay in Python: -
+> Following code can be used to calculate transmission delay in Python: -
 
 ```python
 PKTSIZE = 1514                                          # Ethernet packet size in bytes
