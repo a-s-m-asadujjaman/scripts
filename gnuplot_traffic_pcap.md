@@ -13,7 +13,7 @@ Get the detailed information about the plotting from the below-mentioned website
 ```bash
 timeout 10 tcpdump -r sample-point-F-202001011400.pcap -w sample.pcap
 ```
-***the dataset shown above can be downloaded from [MAWI Working Group Traffic Archive
+***The dataset used above can be downloaded from [MAWI Working Group Traffic Archive
 ](https://mawi.wide.ad.jp/mawi/samplepoint-F/2020/202001011400.html)***
 
 > Generate the traffic data points
