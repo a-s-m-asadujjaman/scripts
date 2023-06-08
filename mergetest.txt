@@ -1,7 +1,1 @@
 
-Written from github
-<<<<<<< HEAD
-Written from github line 2
-=======
-Written from local nano editor after the line 2 was written from github but not merged yet
->>>>>>> file text
