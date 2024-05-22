@@ -36,8 +36,9 @@ sed -i '$ d' stat.dat
 nano gnuplot.script
 
 # Set linestyle 1 to blue (#0060ad)
+
 set term png
-set out "test.png"
+set out ARG2
 set style line 1 \
     linecolor rgb '#0060ad' \
     linetype 1 linewidth 2 \
@@ -45,13 +46,13 @@ set style line 1 \
 
 set format y '%.0s%cb'
 
-plot 'stat.dat' with linespoints linestyle 1
+plot ARG1 with linespoints linestyle 1
 set out
 ```
 
 > Run Gnuplot
 
 ```bash
-gnuplot gnuplot.script
+gnuplot -c gnuplot.script stat.dat test.png
 ```
 ![test.png](https://github.com/a-s-m-asadujjaman/scripts/blob/main/test.png)
